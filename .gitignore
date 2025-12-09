@@ -1,0 +1,161 @@
+# ================================================
+# BLENDER SPECIFIC
+# ================================================
+
+# Blender temporary files
+*.blend1
+*.blend2
+*.blend3
+*.blend4
+*.blend5
+*.blend6
+*.blend7
+*.blend8
+*.blend9
+
+# Backup files
+*.bak
+*.bk
+*.backup
+
+# Auto-save files
+*.blend@
+*.blend~
+
+# Thumbnail cache
+*.bthumbnail
+thumbs.db
+
+# Undo files
+*.un~
+
+# Render cache
+/tmp/
+__pycache__/
+
+# ================================================
+# RENDERS AND OUTPUT
+# ================================================
+
+# Rendered images and animations
+/*.png
+/*.jpg
+/*.jpeg
+/*.bmp
+/*.tga
+/*.tif
+/*.tiff
+/*.exr
+/*.hdr
+/*.mp4
+/*.avi
+/*.mkv
+/*.mov
+/*.webm
+
+# Render output folders
+/output/
+/render/
+/renders/
+/renders_*/
+/render_*/
+/render_output/
+/render_output_*/
+
+# Bake files
+/*.bake
+/bakes/
+/bake_output/
+
+# ================================================
+# BLENDER INTERNAL FILES
+# ================================================
+
+# Crash logs and reports
+/*.crash.txt
+/*.error.txt
+crash.txt
+blender.crash.txt
+
+# Logs
+/*.log
+/blender_log.txt
+blender.log
+
+# Python bytecode
+*.pyc
+*.pyo
+__pycache__/
+
+# Addon development
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ================================================
+# SYSTEM AND EDITOR FILES
+# ================================================
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-*
+
+# ================================================
+# PROJECT SPECIFIC (Customize as needed)
+# ================================================
+
+# Asset libraries (if you don't want to commit them)
+/assets/temp/
+/assets/downloads/
+/assets/imports/
+
+# Simulation caches
+/cache/
+/sim_cache/
+/fluid_cache/
+/smoke_cache/
+/particle_cache/
+
+# Geometry nodes cache
+/geometry_nodes_cache/
+
+# Texture baking
+/texture_bakes/
+
+# ================================================
+# MEDIA FILES (Optional - exclude if you store media in repo)
+# ================================================
+
+# Uncomment if you don't want to commit media files
+#/textures/
+#/images/
+#/hdris/
+#/audio/
+#/video/
+
+# ================================================
+# BLENDER CONFIG AND USER SETTINGS
+# ================================================
+
+# User preferences (machine specific)
+scripts/
+config/
+startup.blend
+userpref.blend
+
+# Addons (unless developing them)
+addons/
